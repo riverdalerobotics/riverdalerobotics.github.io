@@ -1,0 +1,19 @@
+[11-Jul-2018 11:54:12 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/r3p2/public_html/footer.php on line 33
+[11-Jul-2018 11:55:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/r3p2/public_html/footer.php on line 33
+[11-Jul-2018 11:56:24 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/r3p2/public_html/footer.php on line 33
+[13-Jul-2018 14:06:00 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/r3p2/public_html/2016-media.php on line 39
+[13-Jul-2018 14:23:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/r3p2/public_html/2016-media.php on line 97
+[13-Sep-2018 20:57:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'footer' (T_STRING) in /home1/r3p2/public_html/mentors.php on line 96
+[13-Sep-2018 20:57:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'footer' (T_STRING) in /home1/r3p2/public_html/mentors.php on line 96
+[13-Sep-2018 20:58:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'footer' (T_STRING) in /home1/r3p2/public_html/mentors.php on line 96
+[07-Oct-2018 12:11:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home1/r3p2/public_html/functions/displayImgs.php on line 26
+[07-Oct-2018 12:12:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home1/r3p2/public_html/functions/displayImgs.php on line 26
+[07-Oct-2018 12:14:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/r3p2/public_html/functions/displayImgs.php on line 45
+[07-Oct-2018 12:16:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/r3p2/public_html/functions/displayImgs.php on line 45
+[07-Oct-2018 16:01:16 America/Chicago] PHP Fatal error:  Call to undefined function int() in /home1/r3p2/public_html/functions/displayImgs.php on line 7
+[07-Oct-2018 16:01:37 America/Chicago] PHP Fatal error:  Call to undefined function int() in /home1/r3p2/public_html/functions/displayImgs.php on line 7
+[07-Oct-2018 16:03:12 America/Chicago] PHP Fatal error:  Call to undefined function int() in /home1/r3p2/public_html/functions/displayImgs.php on line 7
+[07-Oct-2018 16:03:14 America/Chicago] PHP Fatal error:  Call to undefined function int() in /home1/r3p2/public_html/functions/displayImgs.php on line 7
+[07-Oct-2018 16:04:26 America/Chicago] PHP Warning:  Division by zero in /home1/r3p2/public_html/functions/displayImgs.php on line 7
+[07-Oct-2018 16:05:49 America/Chicago] PHP Fatal error:  Call to undefined function int() in /home1/r3p2/public_html/functions/displayImgs.php on line 11
+[18-Oct-2018 22:54:38 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0

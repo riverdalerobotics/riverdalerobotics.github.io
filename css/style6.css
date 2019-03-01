@@ -1,6 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif; !important
-	padding: 0; 
+	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
 }
@@ -84,7 +84,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 	margin-left: auto;
 	margin-right: auto;
 	height: 40px;
-	width: auto;    
+	width: auto;
 	padding: 0.0125 rem;
 }
 
@@ -287,7 +287,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 
 .logo i {
     margin-right: 0.5 rem;
-   
+
 }
 
 
@@ -305,7 +305,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 	margin-top: 1.25rem;
 }
 
-.hvrbox img {	
+.hvrbox img {
 	max-width: 100%;
 }
 .hvrbox .hvrbox-layer_bottom {
@@ -357,7 +357,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 
 /*images*/
 .img-vertical{
-	image-orientation: -90; 
+	image-orientation: -90;
 }
 
 .container{
@@ -398,9 +398,9 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 .grey-04{background-color: #D6DBDF;}
 
 .blurb{
-	width: 100%; 
-	margin: 0; 
-	padding: 3.55rem; 
+	width: 100%;
+	margin: 0;
+	padding: 3.55rem;
 }
 .blurb ul{
 	width: 90%;
@@ -433,7 +433,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 	margin: 3.75rem auto;
 	text-align: center;
 }
-	
+
 /*slideshows*/
 .quotes{
 	padding: 2.5rem;
@@ -449,13 +449,13 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 .img-container{
     justify-content: center;
 	display: flex; /* was inline-block */
-	width: 100%; 
+	width: 100%;
 	overflow: hidden;
 }
 .img-container-portrait{
     justify-content: center;
 	display: inline-block;
-	max-width: 100%; 
+	max-width: 100%;
 	min-width: 35%;
 	min-height: 500px;
 	overflow: hidden;
@@ -464,7 +464,7 @@ button, a, li, h1, h2, h3, h4, h5, h6{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 100%; 
+	width: 100%;
 	min-height: 150px;
 	max-height: 390px;
 	overflow: hidden;

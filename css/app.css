@@ -43,10 +43,18 @@ body{
   margin-top: 5em;
 }
 
-.timeline article, .season-summary .blurb {
+.timeline article, .season-summary .blurb, .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sponsor-section {
+	margin-bottom: 2em;
+}
+
+.sponsor-section h2 {
+	margin: 1em;
 }
 
 section h1, section h2 {

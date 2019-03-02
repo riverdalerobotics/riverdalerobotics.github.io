@@ -49,8 +49,12 @@ body{
   align-items: center;
 }
 
-section h1 {
+section h1, section h2 {
   text-align: center;
+}
+
+.community {
+	margin-top: 0;
 }
 
 h1, h2 {

@@ -1,6 +1,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 18px;
 }
 
 .top-bar,
@@ -42,7 +43,7 @@ body{
   margin-top: 5em;
 }
 
-.timeline article {
+.timeline article, .season-summary .blurb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +85,7 @@ h2 {
 
 .blurb-text-group {
   display: inline-block;
-  width: 60%;
+  width: 55%;
   margin: 5%;
 }
 
@@ -286,4 +287,13 @@ h2 {
 .season-reveal-video {
 	width:50%;
 	height: 50vh;
+}
+
+.season-achievments {
+	margin: 2em;
+}
+
+.season-achievments h2 {
+	text-align: center;
+	margin: 1em;
 }

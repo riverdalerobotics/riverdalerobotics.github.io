@@ -5,9 +5,16 @@ body{
 .top-bar,
 .top-bar ul,
 .top-bar a {
+	font-family: 'Roboto';
+	font-weight: bold;
   z-index: 999;
   background-color: #292c2f;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
+
+.top-bar-right {
+	text-transform: uppercase;
+}
 
 .top-bar-left img {
   height: 40px;
@@ -87,4 +94,16 @@ section h1 {
 }
 .card p {
   text-align: justify;
+}
+
+.exec-photos .cell {
+	width: 25%;
+}
+
+.exec-photos p {
+	text-align: center;
+}
+
+.exec-photos img {
+	image-orientation: from-image;
 }

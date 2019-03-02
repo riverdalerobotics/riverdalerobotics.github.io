@@ -9,9 +9,9 @@ body{
   background-color: #292c2f;
   color: #FFFFFF; }
 
-  .top-bar-left img {
-    height: 40px;
-  }
+.top-bar-left img {
+  height: 40px;
+}
 
 .dropdown.menu > li.is-active > a {
   color: #FFFFFF; }
@@ -27,34 +27,52 @@ body{
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
+  margin-bottom: 3em;
+
 }
 
-.blurb{
-	width: 100%;
-	margin: 0;
-	padding: 3.55rem;
-}
-.blurb ul{
-	width: 90%;
-	margin-left: 1.5rem;
+.timeline {
+  margin-top: 5em;
 }
 
-.pad-c {
-	padding: 20px;
+.timeline article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.blurb h4, .blurb h3, .blurb h2, .main-des h2 {
-	font-weight: 700;
-	font-family: 'Roboto Condensed', sans-seif;
-	text-transform: uppercase;
-	margin-bottom: 0.5rem;
+section h1 {
+  text-align: center;
 }
 
-.blurb h2{
-	text-align: center;
+.blurb h1, section h1 {
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-seif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
-.blurb p, .main-des p, .blurb ul li{
-	font-weight: 300;
-	line-height: 200%;
-	font-size: 18;
+
+.blurb {
+  width: 100%;
+  padding: 2em;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.blurb p {
+  font-weight: 300;
+  line-height: 200%;
+  font-size: 18;
+}
+
+.blurb img {
+  display: inline-block;
+  width: 20em;
+}
+
+.blurb-text-group {
+  display: inline-block;
+  width: 60%;
+  margin: 5%;
 }

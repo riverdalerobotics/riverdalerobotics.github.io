@@ -10,16 +10,60 @@
   </head>
   <body>
 
-    <header w3-include-html="header.html"></header>
+    <header class="top-bar">
 
-    Hi!
+      <div class="top-bar-left">
 
-    <div w3-include-html="footer.html"></div>
+        <ul class="dropdown menu" data-dropdown-menu>
+          <img src = "images/r3p2-logo-white.png" />
+          <li class="menu-text">Riverdale Raiders Robotics</li>
+        </ul>
+      </div>
+
+      <div class="top-bar-right">
+
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a>Team</a>
+            <ul class="menu vertical">
+              <li><a href="#">Who are we</a></li>
+              <li><a href="#">Executive Team</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Mentors</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Competition</a>
+            <ul class="menu vertical">
+              <li><a href="#">About FIRST</a></li>
+              <li><a href="#">2018</a></li>
+              <li><a href="#">2017</a></li>
+              <li><a href="#">2016</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href ="#">Community</a>
+          </li>
+          <li>
+            <a href="#">Sponsors</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </header>
+
+
+    <img src="images/ryerson_robot.png" id="bg" alt="">
+
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
-    <script src="js/include.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

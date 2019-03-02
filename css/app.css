@@ -1,0 +1,60 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.top-bar,
+.top-bar ul,
+.top-bar a {
+  z-index: 999;
+  background-color: #292c2f;
+  color: #FFFFFF; }
+
+  .top-bar-left img {
+    height: 40px;
+  }
+
+.dropdown.menu > li.is-active > a {
+  color: #FFFFFF; }
+
+.dropdown-pane {
+  border: 0px;
+}
+
+#bg {
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.blurb{
+	width: 100%;
+	margin: 0;
+	padding: 3.55rem;
+}
+.blurb ul{
+	width: 90%;
+	margin-left: 1.5rem;
+}
+
+.pad-c {
+	padding: 20px;
+}
+
+.blurb h4, .blurb h3, .blurb h2, .main-des h2 {
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-seif;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+.blurb h2{
+	text-align: center;
+}
+.blurb p, .main-des p, .blurb ul li{
+	font-weight: 300;
+	line-height: 200%;
+	font-size: 18;
+}

@@ -20,13 +20,12 @@ body{
   border: 0px;
 }
 
-#bg {
+#title-image {
   top: 0;
   left: 0;
 
   /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
   margin-bottom: 3em;
 
 }
@@ -75,4 +74,17 @@ section h1 {
   display: inline-block;
   width: 60%;
   margin: 5%;
+}
+
+.subteam-summary {
+  padding: 2em;
+}
+
+.card h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card p {
+  text-align: justify;
 }

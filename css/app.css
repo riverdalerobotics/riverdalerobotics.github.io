@@ -77,6 +77,30 @@ h2 {
 	font-size: 2em;
 }
 
+.year-section h2 {
+	margin-left: 2em;
+	text-align: left;
+}
+
+.year-section .cell {
+	padding: 2em;
+}
+
+.year-section .card p {
+	text-align: center;
+	margin: 0.5em;
+}
+
+.year-section .card {
+	box-shadow: 0;
+	-webkit-transition: box-shadow 0.5s; /* Safari */
+  transition: box-shadow 0.5s;
+}
+
+.year-section .card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .blurb {
   width: 100%;
   padding: 2em;

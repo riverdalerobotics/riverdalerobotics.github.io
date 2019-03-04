@@ -49,6 +49,11 @@ body{
   align-items: center;
 }
 
+.exec-photo-grid {
+  display: flex;
+  justify-content: center;
+}
+
 .sponsor-section {
 	margin-bottom: 2em;
 }
@@ -136,14 +141,6 @@ h2 {
 }
 .card p {
   text-align: justify;
-}
-
-.exec-photos .cell {
-	width: 25%;
-}
-
-.exec-photos .third {
-	margin: 4%;
 }
 
 .exec-photos p {

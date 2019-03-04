@@ -11,7 +11,8 @@ body{
 	font-weight: bold;
   z-index: 999;
   background-color: #292c2f;
-  color: #FFFFFF;
+	color: #FFFFFF;
+	border-width: 0;
 }
 
 .top-bar-right {
@@ -39,8 +40,9 @@ body{
 
 }
 
-.timeline {
-  margin-top: 5em;
+.timeline .blurb {
+	margin-top: 5em;
+	text-align: justify;
 }
 
 .timeline article, .season-summary .blurb, .center {

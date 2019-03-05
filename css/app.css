@@ -45,10 +45,14 @@ body{
 	text-align: justify;
 }
 
-.timeline article, .season-summary .blurb, .center {
+.timeline article, .season-summary .blurb, .center, .timeline-view-more {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.timeline-view-more {
+	margin-bottom: 3em;
 }
 
 .exec-photo-grid {

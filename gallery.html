@@ -268,5 +268,22 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script>
+
+      var dir = "images/team-photos";
+      var fileextension = ".JPG";
+      $.ajax({
+          //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+          url: dir,
+          success: function (data) {
+              //List all .png file names in the page
+              $(data).find("a:contains(" + fileextension + ")").each(function () {
+                  var filename = this.href.replace(window.location.host, "").replace("http://", "");
+                  $("body").append("<img src='" + dir + filename + "'>");
+              });
+          }
+      });
+
+    </script>
   </body>
 </html>

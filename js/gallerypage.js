@@ -5,6 +5,8 @@ var img;
 var imgArray = new Array();
 var i = 1;
 
+var page = getQueryVariable("page");
+
 var myInterval = setInterval(loadImage, 1);
 
 function loadImage() {
@@ -22,7 +24,7 @@ function loadImage() {
         img = new Image();
         img.onload = fExists;
         img.onerror = fDoesntExist;
-        img.src = 'images/gallery/gallery-pages/test/image' + i + '.png';
+        img.src = 'images/gallery/gallery-pages/' + page + '/image' + i + '.png';
         img.className = "gallery-image";
 
     }
@@ -43,4 +45,12 @@ function imagesToDOM () {
   imgArray.forEach(function(element) {
     document.getElementById("gallery-page").appendChild(element);
   });
+}
+
+function getQueryVariable(variable)
+{
+  var url_string = window.location.href; //window.location.href
+  var url = new URL(url_string);
+  var c = url.searchParams.get(variable);
+  return c;
 }

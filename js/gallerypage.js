@@ -12,7 +12,6 @@ function loadImage() {
     if (bFinishCheck) {
         clearInterval(myInterval);
         imagesToDOM();
-        alert('Loaded ' + i + ' image(s)!)');
         return;
     }
 
@@ -24,6 +23,7 @@ function loadImage() {
         img.onload = fExists;
         img.onerror = fDoesntExist;
         img.src = 'images/gallery/gallery-pages/test/image' + i + '.png';
+        img.className = "gallery-image";
 
     }
 

@@ -336,3 +336,9 @@ h2 {
 	text-align: center;
 	margin: 1em;
 }
+
+.gallery-image {
+	width: 200px;
+	height:200px;
+	padding: 1em;
+}

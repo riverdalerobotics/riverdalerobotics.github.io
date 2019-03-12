@@ -37,7 +37,7 @@ function gallery(page) {
   var notDone = true;
   var i=1;
   while(notDone) {
-    var currPath= path + "/image" + i;
+    var currPath= path + "/image" + i + ".png";
     if (UrlExists("https://www.riverdalerobotics.github.io" + currPath)) {
       var img = document.createElement("img");
       img.src = currPath;

@@ -34,8 +34,21 @@ function gallery(page) {
 
   var path = "images/gallery/gallery-pages/" + page;
 
-  var notDone = true;
   var i=1;
+  var currPath= path + "/image" + i + ".png";
+  var notDone = true;
+  while (notDone) {
+    $.get(currPath)
+      .done(function() {
+        var img = document.createElement("img");
+        img.src = currPath;
+        galleryPage.appendChild(img);
+        i++;
+      }).fail(function() {
+          notDone = false;
+      })
+  }
+
   while(notDone) {
     var currPath= path + "/image" + i + ".png";
     if (UrlExists("https://www.riverdalerobotics.github.io" + currPath)) {

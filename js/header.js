@@ -45,6 +45,7 @@ function includeHeader () {
   var competitionMenu = createMenu (rightDropDownMenu, "Competition", "competition.html");
 
   addItem(competitionMenu, "About First", "first.html");
+  addItem(competitionMenu, "2019", "deep-space.html");
   addItem(competitionMenu, "2018", "power-up.html");
   addItem(competitionMenu, "2017", "steamworks.html");
   addItem(competitionMenu, "2016", "stronghold.html");

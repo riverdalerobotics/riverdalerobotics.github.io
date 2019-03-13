@@ -2,8 +2,9 @@ var bCheckEnabled = true;
 var bFinishCheck = false;
 
 var img;
-var imgArray = new Array();
 var i = 1;
+
+var a;
 
 var page = getQueryVariable("page");
 
@@ -24,14 +25,19 @@ function loadImage() {
         img.onload = fExists;
         img.onerror = fDoesntExist;
         img.src = 'images/gallery/gallery-pages/' + page + '/image (' + i + ').JPG';
-        img.className = "gallery-image";
+        img.className = "gallery-image shadow";
+
+        a = document.createElement("a");
+        a.href = 'images/gallery/gallery-pages/' + page + '/image (' + i + ').JPG';
+        a.target= "_blank";
+        a.appendChild(img);
 
     }
 
 }
 
 function fExists() {
-    document.getElementById("gallery-page").appendChild(img);
+    document.getElementById("gallery-page").appendChild(a);
     i++;
     bCheckEnabled = true;
 }

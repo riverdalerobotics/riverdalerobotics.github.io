@@ -13,7 +13,6 @@ function loadImage() {
 
     if (bFinishCheck) {
         clearInterval(myInterval);
-        imagesToDOM();
         return;
     }
 
@@ -32,19 +31,13 @@ function loadImage() {
 }
 
 function fExists() {
-    imgArray.push(img);
+    document.getElementById("gallery-page").appendChild(img);
     i++;
     bCheckEnabled = true;
 }
 
 function fDoesntExist() {
     bFinishCheck = true;
-}
-
-function imagesToDOM () {
-  imgArray.forEach(function(element) {
-    document.getElementById("gallery-page").appendChild(element);
-  });
 }
 
 function getQueryVariable(variable)

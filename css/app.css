@@ -4,10 +4,15 @@ body{
 	font-size: 18px;
 }
 
+nav {
+	position:fixed;
+	top:0;
+	width: 100%;
+}
+
 .top-bar,
 .top-bar ul,
 .top-bar a {
-	font-family: 'Roboto';
 	font-weight: bold;
   z-index: 999;
   background-color: #292c2f;
@@ -38,6 +43,20 @@ body{
   width: 100%;
   margin-bottom: 3em;
 
+}
+
+footer {
+	z-index: 999;
+  background-color: #292c2f;
+	color: rgba(255,255,255,1);
+	height:200px;
+	padding: 1em;
+	text-transform: none;
+}
+
+footer h2 {
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .timeline .blurb {

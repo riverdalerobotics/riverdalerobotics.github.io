@@ -4,12 +4,6 @@ body{
 	font-size: 18px;
 }
 
-nav {
-	position:fixed;
-	top:0;
-	width: 100%;
-}
-
 .top-bar,
 .top-bar ul,
 .top-bar a {
@@ -48,15 +42,61 @@ nav {
 footer {
 	z-index: 999;
   background-color: #292c2f;
-	color: rgba(255,255,255,1);
-	height:200px;
+	color: rgba(255,255,255,0.9);
 	padding: 1em;
 	text-transform: none;
 }
 
 footer h2 {
+	margin-bottom: 0em;
+}
+
+footer hr {
+	margin-top: 0em;
+}
+
+
+footer ul {
+	list-style-type: none;
+}
+
+.footer-item {
+	color: rgba(255,255,255,0.8);
+	font-size: 0.9em;
+	display: inline-block;
+}
+
+footer iframe {
+	display: inline-block;
+	margin-left: 15%;
+	width: 35%;
+}
+
+footer h2 {
 	font-size: 1.5em;
 	text-align: center;
+}
+
+footer .icon-list {
+	text-align: center;
+	margin-top: 2em;
+}
+
+footer .icon-list li {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 3em;
+	height: 4em;
+}
+
+footer .icon {
+	color: rgba(255,255,255,0.8);
+	font-size: 2em;
+}
+
+footer .icon:hover {
+	font-size: 2.1em;
+	color: rgba(200, 200, 200, 0.9);
 }
 
 .timeline .blurb {

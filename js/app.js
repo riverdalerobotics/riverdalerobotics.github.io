@@ -1,3 +1,12 @@
+header = document.createElement("script");
+header.src = "js/header.js"
+
+footer = document.createElement("script");
+footer.src = "js/footer.js"
+
+document.body.prepend(header);
+document.body.prepend(footer);
+
 $(document).foundation()
 
 var slideIndex = 1;
@@ -36,7 +45,3 @@ var scrollToTop = () => {
     window.scrollTo(0, c - c / 8);
   }
 };
-
-function backToTop() {
-  $('html, body').animate({scrollTop:0}, 1500);
-}

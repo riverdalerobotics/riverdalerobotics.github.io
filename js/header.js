@@ -82,39 +82,4 @@ function addItem(menu, text, href) {
 
 }
 
-/*
-
-  <div class="top-bar-right">
-
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li>
-        <a>Team</a>
-        <ul class="menu vertical">
-          <li><a href="about.html">Who are we</a></li>
-          <li><a href="exec.html">Executive Team</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="mentors.html">Mentors</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href = "competition.html">Competition</a>
-        <ul class="menu vertical">
-          <li><a href="first.html">About FIRST</a></li>
-          <li><a href="power-up.html">2018</a></li>
-          <li><a href="steamworks.html">2017</a></li>
-          <li><a href="stronghold.html">2016</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href ="community.html">Community</a>
-      </li>
-      <li>
-        <a href="sponsors.html">Sponsors</a>
-      </li>
-      <li>
-        <a href="gallery.html">Gallery</a>
-      </li>
-    </ul>
-
-  </div>
-*/
+$(document).foundation();

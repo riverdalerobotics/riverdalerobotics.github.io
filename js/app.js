@@ -28,3 +28,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var scrollToTop = () => {
+  var c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+};
+
+function backToTop() {
+  $('html, body').animate({scrollTop:0}, 1500);
+}

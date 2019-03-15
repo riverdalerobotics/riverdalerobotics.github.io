@@ -160,6 +160,10 @@ footer .icon:hover {
   justify-content: center;
 }
 
+.third {
+	margin: 0 1%;
+}
+
 .sponsor-section {
 	margin-bottom: 2em;
 }

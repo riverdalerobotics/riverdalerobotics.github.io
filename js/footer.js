@@ -114,27 +114,3 @@ function backToTop() {
 }
 
 $(document).foundation()
-
-/*
-
-<div class="grid-x grid-padding-x medium-up-2">
-
-
-
-  <div class="cell">
-
-    <div class="right-footer-item">
-      <a onClick="backToTop()" class="hollow expanded button">Back to Top</button>
-      <a href="timeline.html" class="hollow left-page-item button">Timeline</a>
-      <a href="first.html" class="hollow right-page-item button">About FIRST</a>
-      <a href="history.html" class="hollow left-page-item button">Our History</a>
-      <a href="community.html" class="hollow right-page-item button">Community</a>
-      <a href="sponsors.html" class="hollow left-page-item button">Sponsors</a>
-      <a href="gallery.html" class="hollow right-page-item button">Gallery</a>
-    </div>
-
-  </div>
-
-</div>
-
-*/

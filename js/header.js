@@ -50,7 +50,7 @@ function includeHeader () {
   addItem(competitionMenu, "2017", "steamworks.html");
   addItem(competitionMenu, "2016", "stronghold.html");
 
-  addItem (rightDropDownMenu, "Community", "community.html");
+  addItem (rightDropDownMenu, "Timeline", "timeline.html");
   addItem (rightDropDownMenu, "Sponsors", "sponsors.html");
   addItem (rightDropDownMenu, "Gallery", "gallery.html");
 

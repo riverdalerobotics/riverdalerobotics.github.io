@@ -28,6 +28,7 @@ var reply_click = function()
         }
       }
     }
+    timelineGridCreate();
 }
 var buttons = document.getElementsByClassName('category-button');
 

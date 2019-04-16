@@ -7,6 +7,16 @@ footer.src = "js/footer.js"
 document.body.prepend(header);
 document.body.prepend(footer);
 
+function timelineGridCreate () {
+  var blurbs = document.getElementsByClassName('timeline')[0].getElementsByClassName('blurb');
+  for (i = 0; i < blurbs.length; i++) {
+    blurbs[i].className = blurbs[i].className + ' grid-x grid-x-padding';
+  }
+}
+
+
+timelineGridCreate();
+
 $(document).foundation()
 
 var scrollToTop = () => {

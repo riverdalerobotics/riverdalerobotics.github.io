@@ -20,8 +20,29 @@
 
     <section class = "timeline">
 
+      <div class = "timeline-categories grid-x">
+        <button class = "hollow button category-button" data-target-tag="all">
+          All
+        </button>
+        <button class = "hollow button category-button" data-target-tag="build">
+          Build Season
+        </button>
+        <button class = "hollow button category-button" data-target-tag="comp">
+          Competition
+        </button>
+        <button class = "hollow button category-button" data-target-tag="community">
+          Community
+        </button>
+        <button class = "hollow button category-button" data-target-tag="school-event">
+          School Initiatives
+        </button>
+        <button class = "hollow button category-button" data-target-tag="sponsor">
+          Sponsors
+        </button>
+      </div>
+
       <!-- Ontario District Champs -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="comp">
         <img src="images\timeline\ontario-dcmp-2019.JPG" alt = "dcmp 2019" />
         <div class = "blurb-text-group">
           <h2> Ontario District Championships </h2>
@@ -40,7 +61,8 @@
       </article>
 
       <!-- Western Uni Event -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="comp">
+        <img src="images\timeline\western-eng-2019.JPG" alt = "Western Uni" />
         <div class = "blurb-text-group">
           <h2> Western Engineering District Event </h2>
           <p>
@@ -55,11 +77,10 @@
             taking place next weekend. We can't wait to see you all there!
           </p>
         </div>
-        <img src="images\timeline\western-eng-2019.JPG" alt = "Western Uni" />
       </article>
 
       <!-- Humber District Event -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="comp">
         <img src="images\gallery\gallery-pages\2019\humber\image (6).JPG" />
         <div class = "blurb-text-group">
           <h2> Humber College District Event </h2>
@@ -76,7 +97,8 @@
       </article>
 
       <!-- 2019 Build Season -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="build">
+        <img src="images\timeline\western-kickoff.JPG" alt = "Western Kickoff" />
         <div class = "blurb-text-group">
           <h2> 2019 Kickoff: Destination Deep Space </h2>
           <p>
@@ -88,11 +110,10 @@
             events. Hope to see you there!
           </p>
         </div>
-        <img src="images\timeline\western-kickoff.JPG" alt = "Western Kickoff" />
       </article>
 
       <!-- Terminator -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="school-event">
         <img src="temp" alt = "terminator 2019" />
         <div class = "blurb-text-group">
           <h2> 3rd Annual Terminator </h2>
@@ -107,7 +128,8 @@
       </article>
 
       <!-- Robot Fair -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="school-event">
+        <img src="temp" alt = "robo fair" />
         <div class = "blurb-text-group">
           <h2> Robotics Fair </h2>
           <p>
@@ -120,11 +142,10 @@
             increases in interest during our recruitment.
           </p>
         </div>
-        <img src="temp" alt = "robo fair" />
       </article>
 
       <!-- Ontario District Champs -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="comp">
         <img src="images/events/power_up/north_bay_2018/img07.jpg" />
         <div class = "blurb-text-group">
           <h2> Ontario District Competition </h2>
@@ -143,7 +164,8 @@
       </article>
 
       <!-- North Bay District Event -->
-      <article class = "blurb">
+      <article class = "blurb" data-tags="comp">
+        <img src="images\events\power_up\north_bay_2018\img01.jpg" />
         <div class = "blurb-text-group">
           <h2> North Bay District Event </h2>
           <p>
@@ -156,10 +178,10 @@
             competition has been one of the best performances by our team yet.
           </p>
         </div>
-        <img src="images\events\power_up\north_bay_2018\img01.jpg" />
       </article>
 
-      <article class = "blurb">
+      <!-- Ryerson District Event -->
+      <article class = "blurb" data-tags="comp">
         <img src = "images\events\power_up\ryerson_2018\ryerson_robot.jpg" />
         <div class = "blurb-text-group">
           <h2> Ryerson University District  </h2>
@@ -173,7 +195,9 @@
         </div>
       </article>
 
-      <article class = "blurb">
+      <!-- Optomist Sponsor Visit -->
+      <article class = "blurb" data-tags="sponsor">
+        <img src = "images\community-outreach\optimist-sponsor-meetup.jpg" />
         <div class = "blurb-text-group">
           <h2> Visiting our Sponsors: The Optimist Club  </h2>
           <p>
@@ -183,10 +207,27 @@
             abilities to them and constantly thank them for their support.
           </p>
         </div>
-        <img src = "images\community-outreach\optimist-sponsor-meetup.jpg" />
       </article>
 
-      <article class = "blurb">
+      <!-- Caring for the Carribean -->
+      <article class = "blurb" data-tags="community">
+        <img src="images\community-outreach\caribbean\sign.jpg" />
+        <div class = "blurb-text-group">
+          <h2> Caring for the Carribean </h2>
+          <p>
+            In the summer of 2017, 3 disastrous hurricanes hit southern North
+            America, 2 of which immensely affected many islands in the Caribbean.
+            Most of these countries almost completely destroyed and students and
+            children were not able to attend school until much later in the year.
+            Our fundraiser, Care for the Caribbean intends to raise money for
+            this cause and in turn provide students with school supplies, and
+            other technology assests to help them succeed and learn.
+          </p>
+        </div>
+      </article>
+
+      <!-- 2018 Kickoff -->
+      <article class = "blurb" data-tags="build">
         <img src = "images\timeline\2018-kickoff.jpg" />
         <div class = "blurb-text-group">
           <h2> Kickoff: Start of the 2018 FRC Season  </h2>
@@ -195,6 +236,20 @@
             challenge for the 2018 season: FIRST POWER UP . Since then, we have
             been brainstorming designs and coming up with ideas and strategies
             that will hopefully make our 2018 season a successful one.
+          </p>
+        </div>
+      </article>
+
+      <!-- Girl Guides -->
+      <article class = "blurb" data-tags="community">
+        <img src="images\community-outreach\girl-guides-02.jpg" />
+        <div class = "blurb-text-group">
+          <h2> Girl Guides of Canada </h2>
+          <p>
+            In mid-November, a group of female members on our team gave a
+            presentation to a Girl Guides of Canada club about females
+            in STEM and Robotics, hoping to give them an introduction to the
+            opportunities that they could have in Science and Engineering in high school.
           </p>
         </div>
       </article>
@@ -209,5 +264,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/timelineCategories.js"></script>
   </body>
 </html>

@@ -4,6 +4,10 @@ body{
 	font-size: 18px;
 }
 
+.timeline article.ghost {
+	display: none;
+}
+
 .top-bar,
 .top-bar ul,
 .top-bar a {
@@ -145,10 +149,19 @@ footer .icon:hover {
 	text-align: justify;
 }
 
-.timeline article, .season-summary .blurb, .center, .timeline-view-more {
-  display: flex;
+.timeline .blurb, .season-summary .blurb, .center, .timeline-view-more, .timeline-categories {
+	display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.timeline-categories {
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+
+.timeline-categories button {
+	margin: 1em;
 }
 
 .timeline-view-more {

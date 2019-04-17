@@ -4,10 +4,6 @@ body{
 	font-size: 18px;
 }
 
-.timeline article.ghost {
-	display: none;
-}
-
 .top-bar,
 .top-bar ul,
 .top-bar a {
@@ -153,6 +149,28 @@ footer .icon:hover {
 	display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes dissapear {
+	0% {max-height: 100vh; opacity: 1;}
+	100% {max-height: 0vh; opacity: 0;}
+}
+
+.timeline article.show {
+	animation: dissapear;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-direction: reverse;
+}
+
+.timeline article.hide-transition {
+	animation: dissapear;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+.timeline article.ghost {
+	display: none;
 }
 
 .timeline-categories {

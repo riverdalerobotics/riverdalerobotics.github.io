@@ -1,3 +1,14 @@
+
+var script_tag = document.getElementById('import')
+var blog = script_tag.getAttribute("data-blog");
+
+if (blog != null) {
+  blog = true
+  prefix = "../"
+} else {
+  prefix = ""
+}
+
 includeHeader();
 
 function includeHeader () {
@@ -5,7 +16,7 @@ function includeHeader () {
   var navBar = document.getElementById("navbar");
 
   var anchor = document.createElement("a")
-  anchor.href = "index.html"
+  anchor.href = prefix + "index.html"
   navBar.appendChild(anchor);
 
   var leftBar = document.createElement("div")
@@ -18,7 +29,7 @@ function includeHeader () {
   leftBar.appendChild(leftDropDownList);
 
   var logo = document.createElement("img");
-  logo.src = "images/r3p2-logo-white.png";
+  logo.src = prefix + "images/r3p2-logo-white.png";
   leftDropDownList.appendChild(logo);
 
   var title = document.createElement("li");
@@ -74,7 +85,7 @@ function addItem(menu, text, href) {
   menu.appendChild(listItem);
 
   var anchor = document.createElement("a");
-  anchor.href = href;
+  anchor.href = prefix + href;
   anchor.appendChild(document.createTextNode(text));
   listItem.appendChild(anchor);
 

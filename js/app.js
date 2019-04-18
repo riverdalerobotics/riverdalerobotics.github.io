@@ -1,8 +1,19 @@
+
+var script_tag = document.getElementById('import')
+var blog = script_tag.getAttribute("data-blog");
+
+if (blog != null) {
+  blog = true
+  prefix = "../"
+} else {
+  prefix = ""
+}
+
 header = document.createElement("script");
-header.src = "js/header.js"
+header.src = prefix + "js/header.js"
 
 footer = document.createElement("script");
-footer.src = "js/footer.js"
+footer.src = prefix + "js/footer.js"
 
 document.body.prepend(header);
 document.body.prepend(footer);
@@ -13,9 +24,6 @@ function timelineGridCreate () {
     blurbs[i].className = blurbs[i].className + ' grid-x grid-x-padding';
   }
 }
-
-
-timelineGridCreate();
 
 $(document).foundation()
 

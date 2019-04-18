@@ -1,10 +1,19 @@
 
 var script_tag = document.getElementById('import')
 var title_text = script_tag.getAttribute("data-title");
+var blog = script_tag.getAttribute("data-blog");
 
 headImport ();
 
 function headImport() {
+
+  if (blog != null) {
+    blog = true
+    prefix = "../"
+  } else {
+    prefix = ""
+  }
+
 
   var head = document.getElementsByTagName("head")[0];
 
@@ -28,22 +37,22 @@ function headImport() {
   head.appendChild(link1);
 
   var link2 = document.createElement("link");
-  link2.href="css/foundation.css";
+  link2.href=prefix+"css/foundation.css";
   link2.rel="stylesheet";
   head.appendChild(link2);
 
   var link3 = document.createElement("link");
-  link3.href="css/app.css";
+  link3.href=prefix+"css/app.css";
   link3.rel="stylesheet";
   head.appendChild(link3);
 
   var link4 = document.createElement("link");
-  link4.href="foundation-icons/foundation-icons.css";
+  link4.href=prefix+"foundation-icons/foundation-icons.css";
   link4.rel="stylesheet";
   head.appendChild(link4);
 
   var link5 = document.createElement("link");
-  link5.href="images/favicon.ico";
+  link5.href=prefix+"images/favicon.ico";
   link5.rel="icon";
   head.appendChild(link5);
 

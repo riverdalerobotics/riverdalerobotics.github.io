@@ -1,3 +1,5 @@
+timelineGridCreate();
+
 var contains = function (arr, tag) {
   console.log("call");
   for (j = 0; j < arr.length; j++) {

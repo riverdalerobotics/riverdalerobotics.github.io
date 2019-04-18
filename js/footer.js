@@ -1,3 +1,15 @@
+
+var script_tag = document.getElementById('import')
+var blog = script_tag.getAttribute("data-blog");
+
+if (blog != null) {
+  blog = true
+  prefix = "../"
+} else {
+  prefix = ""
+}
+
+
 includeFooter();
 
 function includeFooter() {
@@ -41,7 +53,7 @@ function includeFooter() {
   iconList.appendChild(createIcon("social-facebook", "https://www.facebook.com/riverdalerobotics"));
   iconList.appendChild(createIcon("social-twitter", "https://twitter.com/frc5834"));
   iconList.appendChild(createIcon("social-instagram", "https://www.instagram.com/r3p2"));
-  iconList.appendChild(createIcon("mail", "contact.html"));
+  iconList.appendChild(createIcon("mail", prefix + "contact.html"));
   iconList.appendChild(createIcon("social-github", "https://github.com/riverdalerobotics"));
 
   var map = document.createElement("iframe");
@@ -101,7 +113,7 @@ function createRightButton (text, href) {
 function createButton (text, href, extraClass) {
 
   var a = document.createElement("a");
-  a.href = href;
+  a.href = prefix + href;
   a.appendChild(document.createTextNode(text))
   a.className = "hollow " +  extraClass + " button";
 

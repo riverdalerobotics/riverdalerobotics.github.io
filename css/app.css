@@ -149,7 +149,7 @@ footer .icon:hover {
 	text-align: justify;
 }
 
-.timeline .blurb, .season-summary .blurb, .center, .timeline-view-more, .timeline-categories {
+.timeline .blurb, .season-summary .blurb, .center, .view-more, .timeline-categories {
 	display: flex;
   justify-content: center;
   align-items: center;
@@ -166,6 +166,15 @@ footer .icon:hover {
 
 .timeline-view-more {
 	margin-bottom: 3em;
+}
+
+.blog-summary div {
+	justify-content: center;
+	align-items: center;
+}
+
+.blog-summary button:before {
+	content: "See More";
 }
 
 .exec-photo-grid {

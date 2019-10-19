@@ -185,6 +185,11 @@ footer .icon:hover {
 	margin: 1em;
 }
 
+.sponsor-section img {
+	width: 20vw;
+	padding: 1vw;
+}
+
 section h1, section h2 {
   text-align: center;
 }

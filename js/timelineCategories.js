@@ -28,6 +28,13 @@ var reply_click = function()
         }
       }
     }
+
+    var caption = this.textContent;
+    if (tag == "all") {
+      caption = ""
+    }
+    document.getElementById('timeline-section-identifier').textContent = caption;
+
     timelineGridCreate();
 }
 var buttons = document.getElementsByClassName('category-button');

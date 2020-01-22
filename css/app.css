@@ -144,6 +144,10 @@ footer .icon:hover {
 	color: rgba(200, 200, 200, 0.9);
 }
 
+#timeline-section-identifier {
+	padding-top: 1em;
+}
+
 .timeline .blurb {
 	margin-top: 0;
 	text-align: justify;

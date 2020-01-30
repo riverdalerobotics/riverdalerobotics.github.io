@@ -24,11 +24,11 @@ function loadImage() {
         img = new Image();
         img.onload = fExists;
         img.onerror = fDoesntExist;
-        img.src = 'images/gallery/gallery-pages/' + page + '/image (' + i + ').JPG';
+        img.src = page + '/image (' + i + ').JPG';
         img.className = "gallery-image shadow";
 
         a = document.createElement("a");
-        a.href = 'images/gallery/gallery-pages/' + page + '/image (' + i + ').JPG';
+        a.href = page + '/image (' + i + ').JPG';
         a.target= "_blank";
         a.appendChild(img);
 
@@ -51,5 +51,11 @@ function getQueryVariable(variable)
   var url_string = window.location.href; //window.location.href
   var url = new URL(url_string);
   var c = url.searchParams.get(variable);
+  console.log(c);
+  if (c==null) {
+    c = "images/competition-history/" + script_tag.getAttribute("data-comp-year") + "/mini-gallery";
+  } else {
+    c = 'images/gallery/gallery-pages/' + c;
+  }
   return c;
 }

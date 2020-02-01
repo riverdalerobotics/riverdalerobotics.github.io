@@ -168,13 +168,11 @@ footer .icon:hover {
 	margin-bottom: 3em;
 }
 
-.blog-summary div {
-	justify-content: center;
-	align-items: center;
-}
-
-.blog-summary button:before {
-	content: "See More";
+.blog-cover-photo {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	height: 80vh;
 }
 
 .exec-photo-grid {

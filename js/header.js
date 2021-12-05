@@ -42,7 +42,7 @@ function includeHeader () {
   addItem(teamMenu, "History", "history.html");
   addItem(teamMenu, "Mentors", "mentors.html");
 
-  var competitionMenu = createMenu (rightDropDownMenu, "Competition", "competition.html");
+  var competitionMenu = createMenu (rightDropDownMenu, "Competition", "#");
 
   addItem(competitionMenu, "About First", "first.html");
   addItem(competitionMenu, "2019", "deep-space.html");

@@ -41,7 +41,9 @@ function includeFooter() {
   iconList.appendChild(createIcon("social-facebook", "https://www.facebook.com/riverdalerobotics"));
   iconList.appendChild(createIcon("social-twitter", "https://twitter.com/frc5834"));
   iconList.appendChild(createIcon("social-instagram", "https://www.instagram.com/r3p2"));
-  iconList.appendChild(createIcon("mail", "contact.html"));
+
+  //iconList.appendChild(createIcon("mail", "contact.html"));
+  iconList.appendChild(createIcon("mail", "mailto:riverdaleraidersrobotics@gmail.com"));
   iconList.appendChild(createIcon("social-github", "https://github.com/riverdalerobotics"));
 
   var map = document.createElement("iframe");

@@ -70,7 +70,7 @@ function includeFooter() {
   rightFooter.appendChild(createLeftButton("Timeline", "timeline.html"));
   rightFooter.appendChild(createRightButton("About FIRST", "first.html"));
   rightFooter.appendChild(createLeftButton("Our History", "history.html"));
-  rightFooter.appendChild(createRightButton("Community", "community.html"));
+  rightFooter.appendChild(createRightButton("Community", "timeline.html"));
   rightFooter.appendChild(createLeftButton("Sponsors", "sponsors.html"));
   rightFooter.appendChild(createRightButton("Gallery", "gallery.html"));
 

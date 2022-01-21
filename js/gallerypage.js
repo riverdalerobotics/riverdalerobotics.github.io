@@ -25,12 +25,10 @@ function loadImage() {
         img.onload = fExists;
         img.onerror = fDoesntExist;
         img.src = page + '/image (' + i + ').JPG';
-        img.src = page + '/image (' + i + ').jpg';
         img.className = "gallery-image shadow";
 
         a = document.createElement("a");
         a.href = page + '/image (' + i + ').JPG';
-        a.href = page + '/image (' + i + ').jpg';
         a.target= "_blank";
         a.appendChild(img);
 

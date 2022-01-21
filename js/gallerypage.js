@@ -24,17 +24,6 @@ function loadImage() {
         img = new Image();
         img.onload = fExists;
         img.onerror = fDoesntExist;
-        img.src = page + '/image (' + i + ').JPG';
-        img.className = "gallery-image shadow";
-
-        a = document.createElement("a");
-        a.href = page + '/image (' + i + ').JPG';
-        a.target= "_blank";
-        a.appendChild(img);
-
-        img = new Image();
-        img.onload = fExists;
-        img.onerror = fDoesntExist;
         img.src = page + '/image (' + i + ').jpg';
         img.className = "gallery-image shadow";
 

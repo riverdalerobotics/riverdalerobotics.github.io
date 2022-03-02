@@ -486,3 +486,9 @@ h2 {
 .button {
 	color: rgba(0,0,0,0);
 }
+
+.exec img{
+	object-fit: cover;
+	width: 50vh;
+	height: 40vh;
+}

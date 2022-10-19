@@ -53,7 +53,13 @@ function includeHeader () {
   addItem(competitionMenu, "2018", "power-up.html");
   addItem(competitionMenu, "2017", "steamworks.html");
   addItem(competitionMenu, "2016", "stronghold.html");
+  
+  // ftcMenu = createMenu (rightDropDownMenu, "FTC", "#");
+  // addItem(ftcMenu, "Tech Runners", "about.html");
+  // addItem(ftcMenu, "Tech Rascals", "exec.html");
+  // addItem(ftcMenu, "Tech Racers", "history.html");
 
+ 
   addItem (rightDropDownMenu, "Timeline", "timeline.html");
   addItem (rightDropDownMenu, "Sponsors", "sponsors.html");
   addItem (rightDropDownMenu, "Gallery", "gallery.html");

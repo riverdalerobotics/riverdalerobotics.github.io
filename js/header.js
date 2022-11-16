@@ -23,7 +23,7 @@ function includeHeader () {
 
   var title = document.createElement("li");
   title.className = "menu-text";
-  title.appendChild(document.createTextNode("Riverdale Raiders Robotics"));
+  title.appendChild(document.createTextNode("Riverdale Robotics")); //raiders
   leftDropDownList.appendChild(title);
 
   var rightBar = document.createElement("div")
@@ -71,7 +71,7 @@ function createMenu (menu, headTitle, headHREF) {
   var listItem = addItem(menu, headTitle, headHREF);
 
   var menu = document.createElement("ul");
-  menu.className = "menu vertical";
+  menu.className = "menu vertical";    
   listItem.appendChild(menu);
 
   return menu

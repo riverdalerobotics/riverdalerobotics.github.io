@@ -13,7 +13,7 @@ function includeFooter() {
   divGrid.appendChild(left);
 
   var leftHeader = document.createElement("h2");
-  leftHeader.appendChild(document.createTextNode("Riverdale Raiders Robotics"));
+  leftHeader.appendChild(document.createTextNode("Riverdale Robotics")); //raiders
   left.appendChild(leftHeader);
 
   var seperator = document.createElement("hr");

@@ -46,7 +46,7 @@ function includeHeader () {
 
   addItem(competitionMenu, "About First", "first.html");
   //Placeholder for 2023 page
-  //addItem(competitionMenu, "2023", "2023.html");
+  addItem(competitionMenu, "2023", "charged-up.html");
   addItem(competitionMenu, "2022", "rapid-react.html");
   addItem(competitionMenu, "2020", "infinite-recharge.html");
   addItem(competitionMenu, "2019", "deep-space.html");

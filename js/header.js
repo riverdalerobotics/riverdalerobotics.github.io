@@ -57,7 +57,7 @@ function includeHeader () {
   //var ftcMenu = createMenu (rightDropDownMenu, "FTC", "#");
   //addItem(ftcMenu, "2023", "Centerstage.html");
 
-
+  //addItem (rightDropDownMenu, "Newsletter", "newsletter.html");
  
   addItem (rightDropDownMenu, "Timeline", "timeline.html");
   addItem (rightDropDownMenu, "Sponsors", "sponsors.html");

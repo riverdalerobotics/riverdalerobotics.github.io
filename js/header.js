@@ -46,6 +46,7 @@ function includeHeader () {
 
   addItem(competitionMenu, "About First", "first.html");
   //Placeholder for 2023 page
+  addItem(competitionMenu, "2024", "crescendo.html");
   addItem(competitionMenu, "2023", "charged-up.html");
   addItem(competitionMenu, "2022", "rapid-react.html");
   addItem(competitionMenu, "2020", "infinite-recharge.html");
@@ -55,7 +56,7 @@ function includeHeader () {
   addItem(competitionMenu, "2016", "stronghold.html");
   
   var ftcMenu = createMenu (rightDropDownMenu, "FTC", "#");
-  addItem(ftcMenu, "2023", "Centerstage.html");
+  addItem(ftcMenu, "2023", "centerstage.html");
 
   //addItem (rightDropDownMenu, "Newsletter", "newsletter.html");
  

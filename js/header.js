@@ -56,7 +56,7 @@ function includeHeader () {
   addItem(competitionMenu, "2016", "stronghold.html");
   
   var ftcMenu = createMenu (rightDropDownMenu, "FTC", "#");
-  addItem(ftcMenu, "2023", "centerstage.html");
+  addItem(ftcMenu, "2023", "Centerstage.html");
 
   //addItem (rightDropDownMenu, "Newsletter", "newsletter.html");
  
